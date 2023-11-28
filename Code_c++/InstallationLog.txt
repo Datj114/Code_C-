@@ -1,0 +1,28 @@
+************************************* Invoked: Wed Oct 11 21:17:11 2023
+[0] Arguments: D:\Downloads\msys2-x86_64-20230526.exe
+[74] Operations sanity check succeeded.
+[401] Using metadata cache from "C:/Users/DELL/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[401] Found 0 cached items.
+[402] Language: en-US
+[814] Loaded control script ":/metadata/installer-config/control_js.js"
+[814] Using control script: ":/metadata/installer-config/control_js.js"
+[4413] Fetching latest update information...
+[4557] Loading component scripts...
+[13214] OverwriteTargetDirectory : Warning : You have selected an existing, non-empty directory for installation.
+Note that it will be completely wiped on uninstallation of this application.
+It is not advisable to install into this directory as installation might fail.
+Do you want to continue? Yes|No
+[18350] backup  operation: Mkdir
+[18350] 	- arguments: E:/
+[18350] Done
+[18351] perform  operation: Mkdir
+[18351] 	- arguments: E:/
+[18351] Done
+[18351] Starting elevated process "D:\\Downloads\\msys2-x86_64-20230526.exe" with arguments " --start-server PRODUCTION,{21cac169-e101-457b-80bb-c8e03da949d6},{6fdb5532-1885-4b10-82d3-ca92c8831b40}"
+[21159] Finished starting elevated process.
+[21272] perform  operation: Mkdir
+[21272] 	- arguments: E:/
+[21277] Done
+[21278] installationError : Error : Cannot create directory "E:\": Unknown error.
+[23385] ROLLING BACK operations= 0
+[23387] Installation aborted!
